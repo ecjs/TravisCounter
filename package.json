@@ -1,0 +1,33 @@
+{
+  "name": "TravisCounter",
+  "version": "0.1.0",
+  "description": "Testing with Travis and a simple Counter Object",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecjs/TravisCounter.git"
+  },
+  "keywords": [
+    "travis",
+    "counter",
+    "chai"
+  ],
+  "author": "Mark Harrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecjs/TravisCounter/issues"
+  },
+  "homepage": "https://github.com/ecjs/TravisCounter",
+
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^0.8.1",
+    "grunt-simple-mocha": "^0.4.0"
+  }
+}
